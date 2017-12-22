@@ -1,7 +1,6 @@
 select {
   width: 100%;
-  background-color: dodgerblue;
-  font-size: 20px;
+  font-size: 30px;
   padding: 5px;
   border-radius: 5px;
 }
