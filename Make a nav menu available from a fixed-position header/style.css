@@ -1,16 +1,43 @@
-nav {
+header {
+  position: fixed;
+  background-color: white;
+  padding: 20px;
   display: flex;
-  overflow-x: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  padding-top: 80px;
+}
+
+#menu-icon {
+  font-size: 30px;
+}
+
+nav {
+  display: none;
+  z-index: 10;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 48px;
+  font-size: 15px;
+  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
-  margin: 10px 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-a {
-  margin-right: 20px;
-  margin-bottom: 10px;
-  white-space: nowrap;
+ul {
+  background-color: dodgerblue;
 }
 
-body {
-  padding: 10px;
+li {
+  padding: 20px;
+}
+
+img {
+  width: 100%;
 }
