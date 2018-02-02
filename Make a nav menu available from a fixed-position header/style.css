@@ -11,6 +11,10 @@ header {
   padding-top: 80px;
 }
 
+img {
+  width: 100%;
+}
+
 #menu-icon {
   font-size: 30px;
 }
@@ -36,8 +40,4 @@ ul {
 
 li {
   padding: 20px;
-}
-
-img {
-  width: 100%;
 }
