@@ -11,26 +11,18 @@ header {
   padding-top: 80px;
 }
 
-img {
-  width: 100%;
-}
-
 #menu-icon {
   font-size: 30px;
 }
 
 nav {
   display: none;
-  z-index: 10;
   position: fixed;
   top: 80px;
   left: 0;
   right: 0;
   bottom: 0;
-  padding-bottom: 48px;
   font-size: 15px;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
   background-color: rgba(0, 0, 0, 0.5);
 }
 

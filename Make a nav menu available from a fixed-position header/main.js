@@ -5,5 +5,5 @@ $('#menu-icon').on('click', () => {
 $('nav').on('click', () => {
   $('nav').toggle()
 }).children().on('click', () => {
-  return false;
-});
+  return false
+})
