@@ -6,7 +6,7 @@ dt {
   background-color: mediumseagreen;
   position: sticky;
   position: -webkit-sticky;
-  top: 0px;
+  top: 0;
 }
 
 dd {
